@@ -1,0 +1,132 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 7, 2021, 2:42:06 PM
+    Author     : Brandon
+*/
+
+
+
+h1 {
+    text-align: center;
+    font-family: fantasy;
+    font-size: 400%;
+}
+
+#chicken{
+    display: block;
+    float: right;
+    border: 2px solid black;
+    width: 100px;
+    font-family: fantasy;
+    font-size: 120%;
+    background-color: salmon;
+    text-align: center;
+}
+
+#beef{
+    display: block;
+    float: right;
+    border: 2px solid black;
+    width: 100px;
+    font-family: fantasy;
+    font-size: 120%;
+    background-color: red;
+    text-align: center;
+}
+
+#sushi{
+    display: block;
+    float: right;
+    border: 2px solid black;
+    width: 100px;
+    font-family: fantasy;
+    font-size: 120%;
+    background-color: bisque;
+    text-align: center;
+}
+
+/*Desktop Specifications*/
+@media (min-width: 992px){
+    
+    #box{
+      width: 30%;
+      float: left;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-bottom: 10px;
+      border: 2px solid black;
+      background-color: lightgray;
+      margin: 1%;
+    }
+
+    #box_third{
+      width: 30%;
+      float: left;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-bottom: 10px;
+      border: 2px solid black;
+      background-color: lightgray;
+      margin: 1%;
+    }
+}
+
+/*Tablet Specifications*/
+@media (min-width: 768px) and (max-width: 991px){
+    #box{
+      width: 45.4%;
+      float: left;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-bottom: 10px;
+      border: 2px solid black;
+      background-color: lightgray;
+      margin: 1%;
+    }
+
+    #box_third{
+      width: auto;
+      float: left;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-bottom: 10px;
+      border: 2px solid black;
+      background-color: lightgray;
+      margin: 1%;
+    }
+}
+
+/*Mobile Specifications*/
+@media (max-width: 767px){
+    #container {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2.5%;
+    }
+    
+    #container_third {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2.5%;
+    }
+    
+    #box{
+      width: auto;
+      padding-left: 10px;
+      border: 2px solid black;
+      background-color: lightgray;
+      margin: 0;
+    }
+
+    #box_third{
+      width: auto;
+      padding-left: 10px;
+      border: 2px solid black;
+      background-color: lightgray;
+      margin: 0;
+    }
+}
